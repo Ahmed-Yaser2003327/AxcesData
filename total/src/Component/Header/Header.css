@@ -1,0 +1,60 @@
+header {
+   display: flex;
+   align-items: center;
+   color: white;
+   background-color: #7f8fa6;
+   height: 50px;
+   border-bottom: 1px solid rgb(244, 247, 114);
+   margin-bottom: 30px;
+   position: fixed;
+      /* تثبيت العنصر */
+      top: 0;
+      /* تثبيت العنصر في أعلى الصفحة */
+      left: 0;
+      /* تثبيت العنصر إلى اليسار */
+      width: 100%;
+      /* تأكد من أن عرض الـ header يغطي الصفحة بالكامل */
+      z-index: 1000;
+      /* إعطاء الـ header أولوية في الطبقات فوق المحتويات الأخرى */
+}
+
+
+header .navLinks {
+   display: flex;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   margin-right: auto;
+}
+
+header .navLinks .navLink {
+   padding: 0 25px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   transition: 0.3s;
+   -webkit-transition: 0.3s;
+   -moz-transition: 0.3s;
+   -ms-transition: 0.3s;
+   -o-transition: 0.3s;
+}
+
+header ul .navLink:hover {
+
+
+   color: #00a8ff;
+}
+
+header ul .navLink.active {
+   background-color:#718093;
+   color:  #00a8ff;
+}
+.Avatar1{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-left: auto;
+             margin-right: 20px;
+           }

@@ -1,0 +1,29 @@
+.show {
+
+    width: 300px;
+    height: 300px;
+    border: solid 2px #444447;
+    background-color: #040404;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.show h2{
+margin-left: 20px;
+}
+
+form {
+    width: 400px;
+    height: 200px;
+   
+    border-radius: 15px;
+    background-color: #00a8ff;
+    margin: 80px auto 20px auto;
+    text-align: center;
+}
+
+form input {
+    display: block;
+    margin: 10px auto 10px auto;
+}
